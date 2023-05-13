@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/IntroStyle.css">
     </head>
     <body>      
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="padding-top: 1.2rem; padding-bottom: 1.2rem;">
         <div class="container">
             <a class="navbar-brand" href="#">
             <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -28,12 +28,23 @@
                   </li>
                   <li class="nav-item dropdown mx-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-pizza-slice fa-lg me-2"></i> Pizzas</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-utensils fa-lg me-2"></i> Pastas</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-ice-cream fa-lg me-2"></i> Others</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       About
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">About 1</a></li>
-                      <li><a class="dropdown-item" href="#">About 2</a></li>
-                      <li><a class="dropdown-item" href="#">About 3</a></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fas fa-star fa-lg me-2"></i> Reviews</a></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fas fa-info-circle fa-lg me-2"></i> About Us</a></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fas fa-envelope fa-lg me-2"></i> Contact Us</a></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fas fa-shield-alt fa-lg me-2"></i> Privacy Policy</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown mx-2">
@@ -41,9 +52,9 @@
                       Socials
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Facebook</a></li>
-                      <li><a class="dropdown-item" href="#">Twitter</a></li>
-                      <li><a class="dropdown-item" href="#">Instagram</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fab fa-facebook fa-lg me-2" style="vertical-align: -2px;"></i> Facebook</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fab fa-twitter fa-lg me-2" style="vertical-align: -2px;"></i> Twitter</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fab fa-instagram fa-lg me-2" style="vertical-align: -2px;"></i> Instagram</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -58,7 +69,10 @@
                 <div class="container-lg">
                   <p class="lead mb-4 text-capitalize fs-5 px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat minus eveniet, cumque debitis sunt aliquam impedit vero deserunt totam consequatur.</p>
                 </div>
-                <button class="btn btn-lg btn-primary">Learn More</button>
+                <button class="btn btn-lg btn-primary btn-color">
+                    Learn More
+                    <i class="fas fa-chevron-circle-right ms-2"></i>
+                </button>
               </div>
             </div> 
           </main>
