@@ -19,7 +19,41 @@ body {
     z-index: -1;
 }
 
+.btn-color {
+    margin-top: 15px;
+    background-color: #FE7C36;
+    border-color: #FE7C36;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+/*   .btn-color:focus,
+  .btn-color:active */
 
+  .btn-color:hover {
+    background-color: #ff5900;
+    border-color: #ff5900;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .btn-color:not(:hover) {
+    transform: scale(1);
+  }
+
+  .dropdown-item i {
+    width: 20px;
+    text-align: center;
+  }
+  
+  .dropdown-item a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
 footer {
 position: fixed;
 bottom: 0;
