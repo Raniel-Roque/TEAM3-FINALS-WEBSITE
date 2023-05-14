@@ -8,6 +8,24 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+body.dark {
+  background-color: rgba(0,0,0,0.7);
+}
+
+body.dark header {
+  background-color: white;
+}
+
+body.dark nav {
+  background-color: white;
+}
+
+body.dark main{
+  filter: brightness(0.5);
+  transition: filter 0.3s ease-in-out;
 }
 
 .overlay {
