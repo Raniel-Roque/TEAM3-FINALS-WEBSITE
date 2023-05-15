@@ -1,94 +1,121 @@
 .dropdown-hover:hover .dropdown-menu {
-    display: block;
+  display: block;
+}
+
+/*
+.img-hover {
+    transition: transform 0.3s ease-in-out;
   }
   
+  .img-hover:hover {
+    transform: scale(1.1);
+  }
+*/
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+body.dark {
+  background-color: rgba(0,0,0,0.8);
+}
+
+body.dark header {
+  background-color: white;
+}
+
+body.dark nav {
+  background-color: white;
+}
+
+body.dark main{
+  filter: brightness(0.2);
+  transition: filter 0.3s ease-in-out;
+}
+
+
+.card {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text{
+  text-align: justify;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.order-now-btn {
+  display: block;
+  margin-left: auto;
+  background-color: #FE7C36;
+  border-color: #FE7C36;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px; /* add margin top for mobile */
+  transition: all 0.3s ease-in-out;
+}
+
+.order-now-btn:hover {
+  background-color: #ff5900;
+  border-color: #ff5900;
+  color: white;
+  transform: scale(1.025);
+}
+
+.order-now-btn:not(:hover) {
+  transform: scale(1);
+}
+
+@media only screen and (min-width: 768px) {
+  .order-now-btn:hover {
+    background-color: #ff5900;
+    border-color: #ff5900;
+    color: white;
+    transform: scale(1.06);
+  }
+  
+  .order-now-btn:not(:hover) {
+    transform: scale(1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
   .card {
-    margin-bottom: 20px;
-    position: relative; /* add position relative to make sure the button is positioned correctly */
+    flex-direction: row;
   }
   
   .card img {
-    height: 200px;
-    object-fit: cover;
+    width: 40%;
+    height: auto;
   }
   
-      
-  .card .order-now {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0;
+  .card-body {
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  .card-title {
+    text-align: left;
+  }
+  
+  .card-text{
+    text-align: justify;
+  }
+
+  .card .order-now-btn {
     width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 100px; /* make the button a circular rectangle */
-    border-bottom-left-radius: 10px;
-    background-color: #007bff;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
   }
-  
-  @media (min-width: 576px) {
-    .card {
-      flex-direction: row;
-    }
-    
-    .card img {
-      width: 50%;
-      height: auto;
-    }
-    
-    .card-body {
-      width: 50%;
-      padding-left: 20px;
-      text-align: justify; /* add text align justify for desktop and tablet */
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .card-body {
-      padding-left: 30px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .card {
-      flex-direction: row;
-    }
-    
-    .card img {
-      width: 40%;
-      height: auto;
-    }
-    
-    .card-body {
-      width: 60%;
-      padding-left: 30px;
-      text-align: justify; /* add text align justify for desktop and tablet */
-    }
-    
-    .card .order-now {
-      width: 40%;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .card img {
-      width: 50%;
-    }
-    
-    .card-body {
-      width: 50%;
-    }
-  }
-  
-  @media (max-width: 991.98px) {
-    .card-body {
-      padding-top: 20px;
-      text-align: center; /* add text align center for mobile */
-    }
-  }
-  
+}
