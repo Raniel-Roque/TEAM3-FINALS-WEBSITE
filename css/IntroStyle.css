@@ -2,6 +2,10 @@
     display: block;
     }
 
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
 body {
     background-image: url('../img/Item.jpg');
     background-size: cover;
@@ -26,6 +30,24 @@ body.dark nav {
 body.dark main{
   filter: brightness(0.4);
   transition: filter 0.3s ease-in-out;
+}
+
+body.light main{
+  filter: brightness(1);
+  transition: filter 0.3s ease-in-out;
+}
+
+body.light {
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.3s ease-in-out;
+}
+
+body.light header {
+  background-color: white;
+}
+
+body.light nav {
+  background-color: white;
 }
 
 .overlay {

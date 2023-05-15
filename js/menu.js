@@ -9,4 +9,3 @@ menuButton.addEventListener('click', function() {
     body.classList.add('light');
   }
 });
-
