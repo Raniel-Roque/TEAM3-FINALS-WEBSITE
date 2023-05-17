@@ -113,6 +113,7 @@ body.light nav {
 }
 
 @media only screen and (min-width: 768px) {
+
   .card {
     height: 230px;
     flex-direction: row;
@@ -144,6 +145,10 @@ body.light nav {
 }
 
 @media only screen and (min-width: 992px) {
+  .pizza-logo {
+    height: 31px;
+  }
+
   .card {
     height: 250px;
     flex-direction: row;
