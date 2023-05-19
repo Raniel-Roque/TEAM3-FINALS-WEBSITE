@@ -1,0 +1,43 @@
+.dropdown-hover:hover .dropdown-menu {
+    display: block;
+  }
+  
+  * {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  body.dark main{
+    filter: brightness(0.2);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  body.dark {
+    background-color: rgba(0,0,0,0.8);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  body.dark header {
+    background-color: white;
+  }
+  
+  body.dark nav {
+    background-color: white;
+  }
+  
+  body.light main{
+    filter: brightness(1);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  body.light {
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  body.light header {
+    background-color: white;
+  }
+  
+  body.light nav {
+    background-color: white;
+  }

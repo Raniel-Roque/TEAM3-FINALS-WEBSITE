@@ -1,0 +1,194 @@
+.dropdown-hover:hover .dropdown-menu {
+    display: block;
+  }
+  
+  * {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  body.dark main{
+    filter: brightness(0.2);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  body.dark {
+    background-color: rgba(0,0,0,0.8);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  body.dark header {
+    background-color: white;
+  }
+  
+  body.dark nav {
+    background-color: white;
+  }
+  
+  body.light main{
+    filter: brightness(1);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  body.light {
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  body.light header {
+    background-color: white;
+  }
+  
+  body.light nav {
+    background-color: white;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .card-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .card-text{
+    text-align: justify;
+    font-size: medium;
+    text-transform: lowercase;
+  }
+  
+  .card-text::first-letter {
+    text-transform: capitalize;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .order-now-btn {
+    display: block;
+    margin-left: auto;
+    background-color: #FE7C36;
+    border-color: #FE7C36;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px; /* add margin top for mobile */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .order-now-btn:hover {
+    background-color: #ff5900;
+    border-color: #ff5900;
+    color: white;
+    transform: scale(1.025);
+  }
+  
+  .order-now-btn:not(:hover) {
+    transform: scale(1);
+  }
+  
+  .design {
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+  }
+
+  .highlight {
+    color: #FE7C36;
+  } 
+
+  .h1-text-size {
+    font-size: 40px;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .text-size{
+    font-size: 14px;
+  }
+
+  .card {
+    height: 230px;
+    flex-direction: row;
+  }
+
+  .card img {
+    width: 40%;
+    height: auto;
+  }
+
+  .card-body {
+    padding-left: 20px;
+  }
+
+  .card-title {
+    text-align: left;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
+
+  .order-now-btn {
+    width: 30%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+} 
+
+  @media only screen and (min-width: 992px) {
+    .text-size{
+      font-size: 16px;
+    }
+    .h1-text-size{
+      font-size: 50px;
+    }
+    .pizza-logo {
+      height: 31px;
+    }
+  
+    .card {
+      height: 250px;
+      flex-direction: row;
+    }
+  
+    .card img {
+      width: 35%;
+      height: auto;
+    }
+  
+    .card-body {
+      padding-left: 20px;
+    }
+  
+    .card-title {
+      text-align: left;
+    }
+  
+    .card-text {
+      text-align: justify;
+    }
+  
+    .order-now-btn {
+      width: 30%;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .text-size{
+      font-size: 20px;
+    }
+    .h1-text-size{
+      font-size: 50px;
+    }
+  }
+

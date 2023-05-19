@@ -10,3 +10,6 @@ menuButton.addEventListener('click', function() {
   }
 });
 
+$(function() {
+  $('body').scrollspy({ target: '.fade-scrollspy' });
+});
