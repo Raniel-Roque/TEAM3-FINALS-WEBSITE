@@ -9,3 +9,7 @@ menuButton.addEventListener('click', function() {
     body.classList.add('light');
   }
 });
+
+$(function() {
+  $('body').scrollspy({ target: '.fade-scrollspy' });
+});
