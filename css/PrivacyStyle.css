@@ -41,3 +41,28 @@
   body.light nav {
     background-color: white;
   }
+
+  .no-resize {
+    resize: none;
+  }
+
+  .btn-review {
+    display: block;
+    margin-left: auto;
+    background-color: #FE7C36;
+    border-color: #FE7C36;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-review:hover {
+    background-color: #ff5900;
+    border-color: #ff5900;
+    color: white;
+    transform: scale(1.025);
+  }
+  
+  .btn-review:not(:hover) {
+    transform: scale(1);
+  }
