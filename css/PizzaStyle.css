@@ -62,6 +62,16 @@ body.light nav {
   position: relative;
 }
 
+.card:hover{
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:not(:hover) {
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+
 .card-title {
   text-align: center;
   text-transform: uppercase;

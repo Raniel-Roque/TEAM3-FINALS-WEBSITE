@@ -47,6 +47,16 @@
     position: relative;
   }
   
+  .card:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:not(:hover) {
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
   .card-title {
     text-align: center;
     text-transform: uppercase;
@@ -105,6 +115,8 @@
   .h1-text-size {
     font-size: 40px;
   }
+
+
 
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
