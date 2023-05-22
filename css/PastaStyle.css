@@ -177,4 +177,15 @@ body.light nav {
     bottom: 10px;
     right: 10px;
   }
+
+  #shop-cart .dropdown-menu {
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  #shop-cart .dropdown-menu li {
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+    
+  
 }
