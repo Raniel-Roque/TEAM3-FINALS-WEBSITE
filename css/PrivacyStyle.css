@@ -66,3 +66,49 @@
   .btn-review:not(:hover) {
     transform: scale(1);
   }
+
+  .p-size{
+    font-size: 4.2rem
+  }
+
+  .tp-size{
+    font-size: 1.7rem
+  }
+  
+  .title-sized{
+    font-size: 2.5rem;
+  }
+
+  .text-size-p{
+    font-size: 16px;
+  }
+
+
+@media only screen and (min-width: 768px) {
+  .p-size{
+    font-size: 3.5rem;
+  }
+
+  .tp-size{
+    font-size: 1.5rem;
+  }
+
+  .title-sized{
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .p-size{
+    font-size: 4.5rem;
+  }
+
+  .tp-size{
+    font-size: 2rem;
+  }
+  
+  .text-size-p{
+    font-size: 18px;
+  }
+}
