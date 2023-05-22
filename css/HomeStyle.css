@@ -116,8 +116,6 @@
     font-size: 40px;
   }
 
-
-
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .text-size{
@@ -193,6 +191,15 @@
       bottom: 10px;
       right: 10px;
     }
+
+    #shop-cart .dropdown-menu {
+      width: 300px; /* Adjust the width as needed */
+    }
+    
+    #shop-cart .dropdown-menu li {
+      white-space: nowrap; /* Prevent line breaks */
+      font-size: 16px; /* Adjust the font size as needed */
+    }
   }
 
   @media only screen and (min-width: 1200px) {
@@ -202,5 +209,8 @@
     .h1-text-size{
       font-size: 50px;
     }
+    
   }
+
+
 
