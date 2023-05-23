@@ -1,0 +1,109 @@
+.left-right {
+    animation-name: slideInFromLeft;
+    animation-duration: 1.7s;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in-out
+  }
+
+  .right-left {
+    animation-name: slideInFromRight;
+    animation-duration: 1.7s;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in-out
+  }
+
+  .bottom-top {
+    animation-name: slideInFromBottom;
+    animation-duration: 1.7s;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in-out
+  }
+
+  .top-bottom {
+    animation-name: slideInFromTop;
+    animation-duration: 1.7s;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in-out
+  }
+
+
+  /* Animation keyframes */
+
+  /* Left to Right */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Right to Left*/
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Bottom to Top*/
+
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .revealY {
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
+    transition: all .8s ease;
+  }
+
+  .revealY.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* revealX For X Axis */
+
+  .revealX {
+    position: relative;
+    transform: translateX(-120px);
+    opacity: 0;
+    transition: all .8s ease;
+  }
+
+  .revealX.active {
+    transform: translateX(0);
+    opacity: 1;
+  }

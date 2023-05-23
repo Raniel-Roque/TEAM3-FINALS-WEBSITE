@@ -144,6 +144,15 @@ body.light nav {
   .card-text {
     text-align: justify;
   }
+
+  .card .card-body:first-child .card-price {
+    font-size: 14px;
+  }
+
+  .card-title:not(:nth-child(1)) {
+    text-align: left;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
