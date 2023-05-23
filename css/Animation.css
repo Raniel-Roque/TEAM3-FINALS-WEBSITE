@@ -1,27 +1,27 @@
 .left-right {
     animation-name: slideInFromLeft;
-    animation-duration: 1.2s;
+    animation-duration: 1.7s;
     animation-fill-mode: both;
     transition-timing-function: ease-in-out
   }
 
   .right-left {
     animation-name: slideInFromRight;
-    animation-duration: 1.2s;
+    animation-duration: 1.7s;
     animation-fill-mode: both;
     transition-timing-function: ease-in-out
   }
 
   .bottom-top {
     animation-name: slideInFromBottom;
-    animation-duration: 1.2s;
+    animation-duration: 1.7s;
     animation-fill-mode: both;
     transition-timing-function: ease-in-out
   }
 
   .top-bottom {
     animation-name: slideInFromTop;
-    animation-duration: 1.2s;
+    animation-duration: 1.7s;
     animation-fill-mode: both;
     transition-timing-function: ease-in-out
   }
